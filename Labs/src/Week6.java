@@ -3,8 +3,12 @@ public class Week6
 {
     public void tutorialQ1()
     {
-        LinkedList<Integer> l1 = new LinkedList<Integer>(Arrays.asList(1,3,5,7,9,11));
-        l1 = addAndSort(l1,2);
+        int values[] = {3, 11, 1, 9, 7 ,5};
+        LinkedList<Integer> l1 = new LinkedList<Integer>();
+        for(int i = 0; i < values.length; i++)
+        {
+            l1 = addAndSort(l1, values[i]);
+        }
         System.out.println(l1);
     }
     public LinkedList<Integer> addAndSort(LinkedList<Integer> inputlist, int inputvalue)
@@ -40,6 +44,24 @@ public class Week6
     {
         return inputlist.indexOf(searchvalue);
     }
-
+    // Using HashMap is a bad idea because HashMap has no order
+    // Hence a substitite was to try using a LinkedHashMap
+    public void tutorial04()
+    {
+        int values[] = {3, 11, 1, 9, 7 ,5};
+        LinkedHashMap<Integer, Integer> hash = new LinkedHashMap<Integer, Integer>();
+        for(int i = 0; i < values.length;i++)
+        {
+            hash = addAndSort(hash, values[i]);
+        }
+    }
+    public LinkedHashMap<Integer, Integer> addAndSort(LinkedHashMap<Integer,Integer> inputhash, int value)
+    {
+        inputhash.put(inputhash.size(), value);
+        // Collections.sort only compatible with Lists
+        // Collections.sort(inputhash);
+        
+        return inputhash;
+    }
 
 }

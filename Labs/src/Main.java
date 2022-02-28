@@ -16,7 +16,7 @@ public class Main
         // wk4.tutorialQ2();
         Week5 wk5 = new Week5();
         // wk5.tutorialQ1();
-        wk5.tutorialQ2();
+        // wk5.tutorialQ2();
         Week6 wk6 = new Week6();
         // wk6.tutorialQ1();
         // wk6.tutorialQ2();
