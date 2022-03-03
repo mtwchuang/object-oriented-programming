@@ -139,7 +139,20 @@ public class Week6
             hash.put(hash.size(), rand.nextInt(1000,9999));
         }
         int value = rand.nextInt(1000,9999);
-        System.out.println(hash.containsValue(value));
+        if(hash.containsValue(value)==false)
+        {
+            System.out.println("-1");
+        }
+        else
+        {
+            for(int i = 0; i<hash.size();i++)
+            {
+                if(value==hash.get(i))
+                {
+                    System.out.println(i);
+                }
+            }
+        }
     }
 
 }
