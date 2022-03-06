@@ -1,3 +1,4 @@
+package Week_06;
 import java.util.*;
 public class Week6 
 {

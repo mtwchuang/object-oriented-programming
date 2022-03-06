@@ -1,3 +1,4 @@
+package Week_04;
 public class BMI 
 {
     // attributes and constants

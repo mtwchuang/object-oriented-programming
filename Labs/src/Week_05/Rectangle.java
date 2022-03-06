@@ -1,3 +1,4 @@
+package Week_05;
 public class Rectangle extends GeometricObject
 {
     // attributes

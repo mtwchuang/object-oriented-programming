@@ -1,3 +1,4 @@
+package Week_05;
 public class Ellipse extends Shape
 {
     public Ellipse(double majoraxis, double minoraxis)
