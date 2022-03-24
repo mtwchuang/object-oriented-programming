@@ -41,8 +41,8 @@ public class CircleWithException
     {
         Scanner input = new Scanner(System.in);
         boolean valid = false;
-        CircleWithException c1;
-        while(valid==false)
+        CircleWithException c1 = null;
+        while(!valid)
         {
             valid=true;
             try
@@ -53,16 +53,16 @@ public class CircleWithException
             }
             catch(IllegalArgumentException e)
             {
-                System.out.println(e.getMessage());
+                System.out.println(e);
                 valid = false;
             }
             catch(Exception d)
             {
-                System.out.println(d.getMessage());
+                System.out.println(d);
                 valid = false;
             }
         }
-
+        System.out.println("The area of the circle is "+c1.getArea());
         input.close();
 
 
