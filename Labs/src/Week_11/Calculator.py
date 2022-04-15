@@ -19,8 +19,8 @@ class Calculator:
         return self.input1/self.input2
         # clear method
     def clear(self):
-        input1 = 0
-        input2 = 0
+        self.input1 = 0
+        self.input2 = 0
 
 # main
 def main():

@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "Labs\\src",
         "Test\\src",
-        "Lectures\\src"
+        "Lectures\\src",
+        "Practice\\src"
     ]
 }

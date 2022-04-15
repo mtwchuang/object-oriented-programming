@@ -2,8 +2,6 @@ package Week_09;
 import static org.junit.Assert.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import javax.lang.model.util.ElementScanner14;
-
 import org.junit.Test;
 import org.junit.jupiter.api.RepeatedTest;
 public class RandomCharacterTest 

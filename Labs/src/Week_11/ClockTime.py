@@ -25,9 +25,9 @@ def main():
     input_sec = -1
     while input_hrs < 0 or input_hrs >23:
         input_hrs = int(input("Enter in clock hours: "))
-    while input_min < 0 or input_min > 60:
+    while input_min < 0 or input_min > 59:
         input_min = int(input("Enter in clock minutes: "))
-    while input_sec < 0 or input_sec > 60:
+    while input_sec < 0 or input_sec > 59:
         input_sec = int(input("Enter in clock seconds: "))
     ct.setTime(input_hrs,input_min,input_sec)
     ct.showTime()

@@ -1,7 +1,7 @@
 package Week_11;
 public class Patient 
 {
-    private String patCode;
+
     private String name;
     private int age;
     private float temperature;
