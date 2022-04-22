@@ -1,4 +1,4 @@
-package Lectures.Week_1;
+package Week_01;
 public class Quotes 
 {
     public static void main(String[] args)

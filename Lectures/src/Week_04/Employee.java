@@ -1,4 +1,4 @@
-package Lectures.Week_4;
+package Week_04;
 // parent class employee
 public class Employee 
 {

@@ -1,4 +1,4 @@
-package Lectures.Week_5;
+package Week_05;
 public class Boat extends Vehicle
 {
     public Boat()

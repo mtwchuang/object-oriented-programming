@@ -1,4 +1,4 @@
-package Lectures.Week_5.MultiInterface;
+package Week_05.MultiInterface;
 public class MultiInterface implements TriInterface{
 // public class MultiInterface implements I1, I2, I3{
     @Override

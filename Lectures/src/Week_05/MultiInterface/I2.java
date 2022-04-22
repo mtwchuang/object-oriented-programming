@@ -1,4 +1,4 @@
-package Lectures.Week_5.MultiInterface;
+package Week_05.MultiInterface;
 public interface I2 
 {
     int two = 2;

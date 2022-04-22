@@ -1,4 +1,4 @@
-package Lectures.Week_2;
+package Week_02;
 // Defining Employee class and implementing Cloneable interface
 public class Employee implements Cloneable
 {

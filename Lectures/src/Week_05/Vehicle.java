@@ -1,4 +1,4 @@
-package Lectures.Week_5;
+package Week_05;
 public abstract class Vehicle 
 {
     protected String name;

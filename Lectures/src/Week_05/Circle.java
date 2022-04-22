@@ -1,4 +1,4 @@
-package Lectures.Week_5;
+package Week_05;
 public class Circle implements Circular
 {
     private double radius = 1.0;

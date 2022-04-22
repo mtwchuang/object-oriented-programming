@@ -1,4 +1,4 @@
-package Lectures.Week_5;
+package Week_05;
 public interface Circular 
 {
     final static double radius = 2.0;

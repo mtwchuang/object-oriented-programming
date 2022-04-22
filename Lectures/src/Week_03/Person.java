@@ -1,4 +1,4 @@
-package Lectures.Week_3;
+package Week_03;
 
 public class Person
 {

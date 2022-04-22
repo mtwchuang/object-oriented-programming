@@ -1,4 +1,4 @@
-package Lectures.Week_4;
+package Week_04;
 // child class SalariedEmployee derived from parent class Employee
 public class SalariedEmployee extends Employee
 {

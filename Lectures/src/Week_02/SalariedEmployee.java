@@ -1,4 +1,4 @@
-package Lectures.Week_2;
+package Week_02;
 
 public class SalariedEmployee extends Employee
 {

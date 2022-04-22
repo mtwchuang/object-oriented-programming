@@ -1,4 +1,4 @@
-package Lectures.Week_4;
+package Week_04;
 public class Test 
 {
     public static void main(String [] args)
