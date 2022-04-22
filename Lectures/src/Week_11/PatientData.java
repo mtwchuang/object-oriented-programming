@@ -1,6 +1,7 @@
 package Week_11;
 public class PatientData 
 {
+    final static float KELVINTOCELCIUS = 273.15f;
     String[] name= {"Matthew","Luke","Mark"};
     int[] age = {23,20,19};
     float[] tempcelsius = {39.3f, 38.1f, 37.5f};
@@ -22,7 +23,6 @@ public class PatientData
     {
         return this.tempkelvin[i];
     }
-    final static float KELVINTOCELCIUS = 273.15f;
     public float convertKelvinToCelsius(String k)
     {
         return (Float.parseFloat(k) - KELVINTOCELCIUS);

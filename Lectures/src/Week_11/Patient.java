@@ -1,7 +1,6 @@
 package Week_11;
-public class Patient 
+public class Patient
 {
-
     private String name;
     private int age;
     private float temperature;

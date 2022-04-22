@@ -1,3 +1,6 @@
+package Class_Test1;
+import Retry.MasterPlan;
+
 public class StudentHelper extends MasterPlan
 {
     // constants
