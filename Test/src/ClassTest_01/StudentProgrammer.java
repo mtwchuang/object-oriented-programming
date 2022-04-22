@@ -1,3 +1,4 @@
+package ClassTest_01;
 public class StudentProgrammer extends StudentHelper
 {
     private String progLang;

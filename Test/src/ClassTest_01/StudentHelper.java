@@ -1,5 +1,4 @@
-package Class_Test1;
-import Retry.MasterPlan;
+package ClassTest_01;
 
 public class StudentHelper extends MasterPlan
 {

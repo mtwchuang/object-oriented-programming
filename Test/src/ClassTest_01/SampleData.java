@@ -1,4 +1,4 @@
-package Retry;
+package ClassTest_01;
 public class SampleData 
 {
     String[] studNo = {"SIT2101903","SIT2130229","SIT1928383","SIT1238912"};

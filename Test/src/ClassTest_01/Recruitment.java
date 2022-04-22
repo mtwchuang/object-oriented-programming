@@ -1,4 +1,4 @@
-package Class_Test1;
+package ClassTest_01;
 public class Recruitment 
 {
     public static void main(String[] args)

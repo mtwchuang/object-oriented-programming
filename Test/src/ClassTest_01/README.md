@@ -1,6 +1,5 @@
 # Class Test Question
-There is an upcoming student fair where students will be hired to help out in the event. 
-The minimum wage paid to students are as such. If they are
+There is an upcoming student fair where students will be hired to help out. The minimum wage paid to students are as such. If they are
 - under the age minimum age of 16, they will not be paid
 - above or at minimum age but under 18, they will be paid 4 dollars hourly
 - above or at age 18, they will be paid 6 dollars hourly

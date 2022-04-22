@@ -1,3 +1,4 @@
+package ClassTest_01;
 public class StudentTranslator extends StudentHelper
 {
     // translator attribute
